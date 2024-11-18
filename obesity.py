@@ -19,7 +19,7 @@ def user_input_features():
         "Age": age,
         "Height": height,
         "Weight": weight,
-        "Gende": 1 if gender == "Male" else 0,  
+        "Gender": 1 if gender == "Male" else 0,  
         "family_history_with_overweight": 1 if family_history == "Yes" else 0  
     }
     features = pd.DataFrame(data, index=[0])
