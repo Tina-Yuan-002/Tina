@@ -13,7 +13,7 @@ def user_input_features():
     weight = st.number_input("weight (kg)")
 
     gender = st.selectbox("Gender", ["Male", "Female"])
-    family_history = st.radio("Family history of overweight", ["Yes", "No"])
+    family_history = st.radio("family_history_with_overweight", ["Yes", "No"])
 
     data = {
         "Age": age,
